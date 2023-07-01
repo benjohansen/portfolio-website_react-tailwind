@@ -5,27 +5,27 @@ import { FaFlickr } from 'react-icons/fa';
 
 function YoutubeLink({link}) {
     if (link !== null) {
-    return <a href={link}><RiYoutubeFill className="fill-slate-500" /></a>
+    return <a href={link}><RiYoutubeFill className="fill-slate-500 hover:fill-blue-700" /></a>
     }}
 
 function ScoreLink({link}) {
     if (link !== null) {
-    return <a href={link}><RiFilePaper2Line className="fill-slate-500" /></a>
+    return <a href={link}><RiFilePaper2Line className="fill-slate-500 hover:fill-blue-700" /></a>
     }}
 
 function AudioFileLink({link}) {
     if (link !== null) {
-    return <a href={link}><RiPlayCircleLine className="fill-slate-500" /></a>
+    return <a href={link}><RiPlayCircleLine className="fill-slate-500 hover:fill-blue-700" /></a>
     }}
 
 function AmazonLink({link}) {
     if (link !== null) {
-    return <a href={link}><RiAmazonFill className="fill-slate-500" /></a>
+    return <a href={link}><RiAmazonFill className="fill-slate-500 hover:fill-blue-700" /></a>
     }}
 
 function FlickrLink({link}) {
     if (link !== null) {
-    return <a href={link}><FaFlickr className="fill-slate-500" /></a>
+    return <a href={link}><FaFlickr className="fill-slate-500 hover:fill-blue-700" /></a>
     }}
 
 function Stack({stacklist}) {
@@ -45,7 +45,7 @@ function CompositionItem({ title, instrumentation, stack, youtubeLink, scoreLink
     return (
         <>
 			<div className="group mb-5">
-				    <div className="bg-slate-200 gap-4 sm:flex flex-row group-hover:drop-shadow group-hover:bg-slate-400/50 z-0 rounded-md transition">
+				    <div className="bg-slate-200 gap-4 sm:flex flex-row z-0 rounded-md transition">
 					    <div className="m-2 mt-1 sm:basis-3/4 sm:order-2">
 						    <div className="flex">
                                 <h6 className="text-xl flex flex-row mb-1 font-bold italic">{`${title}`}</h6>
@@ -57,7 +57,7 @@ function CompositionItem({ title, instrumentation, stack, youtubeLink, scoreLink
                                 <Stack stacklist = {stack} />   
                             </div>
 					    </div>
-                        <div className="sm:gap-4 sm:grid sm:grid-cols-2 justify-start flex text-5xl pb-2 m-2 mt-2 sm:basis-1/4 sm:order-1">
+                        <div className="hover:bg-gray-200/50 sm:gap-4 sm:grid sm:grid-cols-2 justify-start flex text-5xl pb-2 m-2 mt-2 sm:basis-1/4 sm:order-1">
                             <YoutubeLink link = {youtubeLink} />
                             <ScoreLink link = {scoreLink} />
                             <AudioFileLink link = {audioFileLink} />  
