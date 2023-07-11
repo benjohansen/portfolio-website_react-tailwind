@@ -32,7 +32,7 @@ function Stack({stacklist}) {
     if (stacklist !== null) {
     return (
         stacklist.map(item => (
-            <span key={`portSpan-${item}`} className="flex items-center rounded-full bg-teal-100/50 px-3 py-1 text-xs font-medium leading-5 text-teal-600 drop-shadow-md">
+            <span key={`portSpan-${item}`} className="flex items-center rounded-full bg-teal-200 px-3 py-1 text-xs font-medium leading-5 text-teal-600 drop-shadow-md">
                 {item}
             </span>
         ))
