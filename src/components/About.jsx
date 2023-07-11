@@ -17,6 +17,9 @@ function About() {
         
         <div className="px-3 py-5">
             <div className="container mx-auto sm:px-4">
+                <h3 className="font-bold my-4">
+                I am curious.
+                </h3>
                 <p className="my-4">
                 My favorite technologies to work with are currently <span className="font-bold">JavaScript</span>, microcontrollers & sensors, audio/video recording/editing, and Max. Due to years of working modularly in Max, I recently picked up <span className="font-bold">React</span> very quickly … React seems to finally be a place I can really put many of my skills to work.
                 </p> 
@@ -34,9 +37,9 @@ function About() {
         </div>    
             <div className="">  
 
-                <h2 className="flex justify-center text-xl leading-5 font-bold pb-2">
+                <h4 className="flex justify-center leading-5 pb-2">
                 Soft Skills:
-                </h2>
+                </h4>
 
                 <div className="flex flex-wrap gap-2 flex-row justify-center">
                     {softSkills.map(item => (
@@ -46,9 +49,9 @@ function About() {
                     ))}
                 </div>
 
-                <h2 className="flex justify-center text-xl leading-5 font-bold pb-2 pt-4">
+                <h4 className="flex justify-center leading-5 pb-2 pt-4">
                 Hard Skills:
-                </h2>
+                </h4>
 
                 <div className="flex flex-wrap gap-2 flex-row justify-center">
                     {hardSkills.map(item => (
@@ -59,9 +62,9 @@ function About() {
                 </div>
 
 
-                <h2 className="flex justify-center text-xl leading-5 font-bold pb-2 pt-4">
+                <h4 className="flex justify-center leading-5 pb-2 pt-4">
                 Tech Stack:
-                </h2>
+                </h4>
 
                 <div className="flex flex-wrap gap-2 flex-row justify-center">
                     {techStack.map(item => (
