@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiDownload } from 'react-icons/hi';
 
-const techStack = ['JavaScript', 'HTML', 'CSS', 'Git', 'Max', 'Arduino', 'A/V Recording/Editing'];
+const techStack = ['JavaScript', 'HTML', 'CSS', 'Git', 'Max', 'Arduino', 'A/V Recording/Editing','Logic Pro','DaVinci Resolve','Adobe CC'];
 const softSkills = ['Collaboration','Self-Drive','Creativity','Curiosity','Communication'];
 const hardSkills = ['Coding','Physical Computing','Composing','Teaching'];
 
@@ -18,10 +18,10 @@ function About() {
         <div className="px-3 py-5">
             <div className="container mx-auto sm:px-4">
                 <p className="my-4">
-                My favorite technologies to work with are currently <span className="font-bold">JavaScript</span>, microcontrollers & sensors, audio/video recording/editing, and Max. Due to working modularly in Max for over 20 years, I recently picked up <span className="font-bold">React</span> very quickly … React seems to finally be a place I can really put many of my skills to work.
+                My favorite technologies to work with are currently <span className="font-bold">JavaScript</span>, microcontrollers & sensors, audio/video recording/editing, and Max. Due to years of working modularly in Max, I recently picked up <span className="font-bold">React</span> very quickly … React seems to finally be a place I can really put many of my skills to work.
                 </p> 
                 <p className="my-4">
-                I've been coding/composing interactive computer music and teaching technology for over 20 years. Making interactions intuitive for the client is a passion of mine. 
+                I am a Senior Lecturer at Baylor University and have been coding/composing interactive computer music and teaching technology for nearly 20 years. Making interactions intuitive for the client is a passion of mine. 
                 </p>
                 <p className="">
                     Download my

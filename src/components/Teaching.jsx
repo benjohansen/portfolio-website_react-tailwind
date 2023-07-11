@@ -12,7 +12,7 @@ function Teaching() {
         <div className="px-3 py-5">
             <div className="container mx-auto sm:px-4">
             <p>
-                I am currently a Senior Lecturer at Baylor University and have over 20 years experience teaching coding for electroacoustic music, acoustic music composition, digital scholarship (data visualization), technology for musicians, saxophone, and band.
+                I am currently a Senior Lecturer at Baylor University and have nearly 20 years experience teaching coding for electroacoustic music, acoustic music composition, digital scholarship (data visualization), technology for musicians, saxophone, and band.
             </p>
 
             <ul className="list-disc pl-4 pt-4">

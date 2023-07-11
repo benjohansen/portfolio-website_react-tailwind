@@ -4,8 +4,8 @@ export default [
         title: 'This React Website',
         imgUrl: '/assets/react_tailwind.png',
         stack: ['React', 'Tailwind (CSS)', 'Javascript','HTML', 'Vite', 'Framer Motion', 'React-Icons'],
-        link: '#home',
-        summary: 'I built my portfolio website from scratch to display my React, HTML, and CSS skills.',
+        link: 'https://github.com/benjohansen/portfolio-website_react-tailwind',
+        summary: 'I built my portfolio website *from scratch* to display my React, HTML, and CSS skills.',
     },
     {
         idb: 102,
@@ -20,8 +20,8 @@ export default [
         title: 'Baylor School of Music Website',
         imgUrl: '/assets/baylor-som.png',
         stack: ['Drupal', 'HTML', 'CSS', 'Adobe CC'],
-        link: 'https://music.baylor.edu/',
-        summary: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies...',
+        link: 'https://baylor.edu/music',
+        summary: "As webmaster, I completely redesigned the Baylor School of Music website in 2017 for Baylor's CMS and am currently redesigning it again in Drupal (project to be completed mid-August.",
     },
     {
         idb: 104,
