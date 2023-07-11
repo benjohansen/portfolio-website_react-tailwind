@@ -4,7 +4,7 @@ import PortfolioItem from './PortfolioItem';
 
 function Portfolio() {
     return (
-        <>
+        <div className="mt-12">
         <a id="portfolio" className="relative invisible scroll-mt-16"></a>
         <div className="flex justify-center">
             <h2 className="">portfolio</h2>
@@ -23,7 +23,7 @@ function Portfolio() {
                 ))}
             </div>
         </div>
-        </>
+        </div>
     )
 }
 
