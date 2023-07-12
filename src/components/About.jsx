@@ -25,7 +25,7 @@ function About() {
                 </h3>
                 <p className="my-4 leading-6">
                     I've been coding for art projects and teaching technology & creativity for nearly 20 years. Curiosity and self-drive has lead me into learning technologies in many different areas, both hardware (from analog synths to microcontrollers) and software (from Max & Arduino to <span className="font-bold">JavaScript</span>/HTML/CSS).
-                    I love intuitive interactions and <span className="font-bold">mudularity</span>. Download my
+                    I love intuitive interactions and <span className="font-bold">modularity</span>. Download my
                     <a href='https://www.dropbox.com/s/7x70k2f70nhvs4a/johansen-resume-2023.pdf?dl=1' className="font-bold text-blue-500 hover:text-blue-800">
                         &nbsp;resume&nbsp;
                     </a>
