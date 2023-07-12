@@ -45,25 +45,24 @@ function CompositionItem({ title, instrumentation, stack, youtubeLink, scoreLink
     return (
         <>
 			<div className="group mb-5">
-				    <div className="bg-slate-200 gap-4 sm:flex flex-row z-0 rounded-md transition">
-					    <div className="m-2 mt-1 sm:basis-3/4 sm:order-2">
+				    <div className="bg-slate-200 gap-4 z-0 rounded-md transition pb-1">
+					    <div className="m-2 mt-1">
 						    <div className="flex">
                                 <h6 className="text-xl flex flex-row mb-1 font-bold italic">{`${title}`}</h6>
                                 <p className="pl-1 mt-1">({length})</p>
 						    </div>
                             <div className="mb-2"><p>{instrumentation}</p></div>
                             <div className="mb-2">{summary}</div>
-						    <div className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
+						    <div className="flex flex-wrap gap-2 flex-row items-center justify-start text-3xl">
+                                <YoutubeLink link = {youtubeLink} />
+                                <ScoreLink link = {scoreLink} />
+                                <AudioFileLink link = {audioFileLink} />  
+                                <AmazonLink link = {amazonLink} />
+                                <FlickrLink link = {flickrLink} />
                                 <Stack stacklist = {stack} />   
                             </div>
 					    </div>
-                        <div className="hover:bg-gray-200/50 sm:gap-4 sm:grid sm:grid-cols-2 justify-start flex text-5xl pb-2 m-2 mt-2 sm:basis-1/4 sm:order-1">
-                            <YoutubeLink link = {youtubeLink} />
-                            <ScoreLink link = {scoreLink} />
-                            <AudioFileLink link = {audioFileLink} />  
-                            <AmazonLink link = {amazonLink} />
-                            <FlickrLink link = {flickrLink} />
-					    </div>
+                        
                     </div>
 			</div>
         </>
