@@ -14,7 +14,7 @@ function About() {
                 
         </div>
         <div className="flex justify-center pt-2">
-                <a href='https://www.dropbox.com/s/7x70k2f70nhvs4a/johansen-resume-2023.pdf?dl=1' className="bg-blue-500 hover:bg-blue-800 text-white font-bold rounded inline-flex items-center p-2 px-4">
+                <a href='/assets/johansen-resume-2024.pdf' className="bg-blue-500 hover:bg-blue-800 text-white font-bold rounded inline-flex items-center p-2 px-4">
                         <HiDownload className="mt-1 mr-1" />resume
                 </a>
         </div>
@@ -26,7 +26,7 @@ function About() {
                 <p className="my-4 leading-6">
                     I've been coding for art projects and teaching technology & creativity for nearly 20 years. Curiosity and self-drive has lead me into learning technologies in many different areas, both hardware (from analog synths to microcontrollers) and software (from Max & Arduino to <span className="font-bold">JavaScript</span>/HTML/CSS).
                     I love intuitive interactions and <span className="font-bold">modularity</span>. Download my
-                    <a href='https://www.dropbox.com/s/7x70k2f70nhvs4a/johansen-resume-2023.pdf?dl=1' className="font-bold text-blue-500 hover:text-blue-800">
+                    <a href='/assets/johansen-resume-2024.pdf' className="font-bold text-blue-500 hover:text-blue-800">
                         &nbsp;resume&nbsp;
                     </a>
                     for a deeper dive into my expertise and experience.

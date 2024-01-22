@@ -1,5 +1,18 @@
 export default [
     {
+        idb: 200,
+        title: 'Still',
+        instrumentation: 'full orchestra and interactive computer',
+        stack: ['Max'],
+        youtubeLink: null,
+        scoreLink: null,
+        audioFileLink: null,
+        amazonLink: null,
+        flickrLink: null,
+        summary: null,
+        length: '13min',
+    },
+    {
         idb: 201,
         title: 'Extemporizations No.1',
         instrumentation: '2-5 percussionists and interactive computer',
