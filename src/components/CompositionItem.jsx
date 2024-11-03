@@ -40,15 +40,17 @@ function Stack({stacklist}) {
 }
     
 
-function CompositionItem({ title, instrumentation, stack, youtubeLink, scoreLink, audioFileLink, amazonLink, flickrLink, summary, length }) {
+function CompositionItem({ keyz, title, instrumentation, stack, youtubeLink, scoreLink, audioFileLink, amazonLink, flickrLink, summary, length }) {
     
     return (
         <>
+            
 			<div className="group mb-5">
+                <a id={`${keyz}`} className="relative invisible scroll-mt-16"></a>
 				    <div className="bg-slate-200 gap-4 z-0 rounded-md transition pb-1">
 					    <div className="m-2 mt-1">
 						    <div className="flex">
-                                <h6 className="text-xl flex flex-row mb-1 font-bold italic">{`${title}`}</h6>
+                                <h6 className="text-xl flex flex-row mb-1 font-bold">{`${title}`}</h6>
                                 <p className="pl-1 mt-1">({length})</p>
 						    </div>
                             <div className="mb-2"><p>{instrumentation}</p></div>

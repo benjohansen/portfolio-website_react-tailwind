@@ -31,7 +31,7 @@ export default [
         instrumentation: 'percussion concerto – solo perc + sax, brass, & string quartet',
         stack: null,
         youtubeLink: 'https://www.youtube.com/watch?v=SI65D-E0kls',
-        scoreLink: null,
+        scoreLink: 'https://www.youtube.com/watch?v=SI65D-E0kls',
         audioFileLink: null,
         amazonLink: null,
         flickrLink: null,

@@ -7,7 +7,8 @@ import CompositionItem from './CompositionItem';
 function Compositions() {
     return (
         <>
-            <a id="compositions" className="relative invisible scroll-mt-14"></a>
+            <div className="mt-12">
+            <a id="portfolio" className="relative invisible scroll-mt-14"></a>
             <div className="flex justify-center">
                 <h2 className="font-monospace uppercase">compositions</h2>
             </div>
@@ -17,7 +18,7 @@ function Compositions() {
                     <h3 className="sm:text-3xl text-2xl font-bold uppercase mx-auto py-5">Electronic</h3>
                     {compositionsElectronic.map(project => (
                         <CompositionItem
-                            key={project.idb}
+                            keyz={project.idb}
                             title={project.title}
                             instrumentation={project.instrumentation}
                             stack={project.stack}
@@ -38,7 +39,7 @@ function Compositions() {
                     <h3 className="sm:text-3xl text-2xl font-bold uppercase mx-auto py-5">Acoustic</h3>
                     {compositionsAcoustic.map(project => (
                         <CompositionItem
-                            key={project.idb}
+                            keyz={project.idb}
                             title={project.title}
                             instrumentation={project.instrumentation}
                             stack={project.stack}
@@ -59,7 +60,7 @@ function Compositions() {
                     <h3 className="sm:text-3xl text-2xl font-bold uppercase mx-auto py-5">Installation</h3>
                     {compositionsInstallation.map(project => (
                         <CompositionItem
-                            key={project.idb}
+                            keyz={project.idb}
                             title={project.title}
                             instrumentation={project.instrumentation}
                             stack={project.stack}
@@ -73,6 +74,7 @@ function Compositions() {
                         />
                     ))}
                 </div>
+            </div>
             </div>
         </>
     )

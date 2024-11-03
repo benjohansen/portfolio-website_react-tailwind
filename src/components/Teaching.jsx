@@ -11,8 +11,18 @@ function Teaching() {
         
         <div className="px-3 py-5">
             <div className="container mx-auto sm:px-4">
+            <p className="my-4 leading-6">
+                I am a Senior Lecturer at Baylor University and have nearly 20 years experience teaching coding for electroacoustic music, acoustic music composition, digital scholarship (data visualization), technology for musicians, saxophone, and band.
+            </p>
             <p>
-                I am currently a Senior Lecturer at Baylor University and have nearly 20 years experience teaching coding for electroacoustic music, acoustic music composition, digital scholarship (data visualization), technology for musicians, saxophone, and band.
+                Students’ personal growth and contributions to society are my top priorities as a teacher — I strive to provide a transformative experience.
+            </p>
+            <p className="my-4 leading-6">
+                I aim for students to shed hindrances, gain confidence, and become innovative, mature, wise, knowledgeable, skilled, problem-solving, and creative scholars.
+            </p>
+            <p>&nbsp;</p>
+            <p className="font-bold">
+                I am currently teaching:
             </p>
 
             <ul className="list-disc pl-4 pt-4">

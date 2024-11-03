@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiDownload } from 'react-icons/hi';
 
-const techStack = ['JavaScript', 'React', 'HTML', 'CSS', 'Git', 'Max', 'Arduino', 'A/V Recording/Editing','Logic Pro', 'Dorico', 'DaVinci Resolve','Adobe CC'];
+const techStack = ['Max', 'Logic Pro', 'Dorico','Arduino', 'A/V Recording/Editing', 'Ableton Live', 'Pure Data', 'DaVinci Resolve','Adobe CC','JavaScript', 'React', 'HTML', 'CSS', 'Git', 'Node.js'];
 
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
         </div>
         <div className="flex justify-center pt-2">
                 <a href='/assets/johansen-resume-2024.pdf' className="bg-blue-500 hover:bg-blue-800 text-white font-bold rounded inline-flex items-center p-2 px-4">
-                        <HiDownload className="mt-1 mr-1" />resume
+                        <HiDownload className="mt-1 mr-1" />CV&nbsp;&nbsp;&nbsp;
                 </a>
         </div>
         <div className="px-3 pb-4">
@@ -24,18 +24,15 @@ function About() {
                 I am curious.
                 </h3>
                 <p className="my-4 leading-6">
-                    I've been coding for art projects and teaching technology & creativity for nearly 20 years. Curiosity and self-drive has lead me into learning technologies in many different areas, both hardware (from analog synths to microcontrollers) and software (from Max & Arduino to <span className="font-bold">JavaScript</span>/HTML/CSS).
-                    I love intuitive interactions and <span className="font-bold">modularity</span>. Download my
-                    <a href='/assets/johansen-resume-2024.pdf' className="font-bold text-blue-500 hover:text-blue-800">
-                        &nbsp;resume&nbsp;
-                    </a>
-                    for a deeper dive into my expertise and experience.
-                </p> 
+                    For nearly 20 years, I have combined coding, music, and technology in creative projects, teaching, and research. Curiosity and self-drive has lead me into learning technologies in many different areas, both hardware (from microcontrollers to analog synths) and software (from Max to JavaScript). I am passionate about intuitive interactions and modularity … but more than anything, I am built to explore, play, and experiment with technology and sound to create what others have not even imagined.
+                </p>
+                <p>
+                    My mission is to empower students to become leaders in the creation of meaningful, forward-looking art, guiding them as they blend technology and creativity to shape their chosen industries. I am also committed to advancing the School’s pioneering status in arts innovation and help foster a culture of innovation and curiosity at the intersection of art and new technologies.
+                </p>
 
-               
                 <h5 className="uppercase leading-5 pt-4 my-1 font-bold">My Soft Skills:</h5>
                 <p> 
-                    Collaboration, Self-Drive, Creativity, Ingenuity, and Communication
+                    Innovation, Creativity, Problem-Solving, Self-Drive, Collaboration, Ingenuity, and Communication
                 </p>
 
                 <h5 className="uppercase leading-5 pt-4 my-2 font-bold">

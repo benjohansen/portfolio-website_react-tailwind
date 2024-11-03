@@ -23,8 +23,8 @@ function App() {
       		</div>
 			<div className="sm:max-w-5xl w-11/12 mx-auto">
         		<About />
-        		<Portfolio />
 				<Compositions />
+				<Portfolio />
         		<Teaching />
         		<Contact />
         		<Footer />

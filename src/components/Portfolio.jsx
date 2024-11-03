@@ -4,13 +4,12 @@ import PortfolioItem from './PortfolioItem';
 
 function Portfolio() {
     return (
-        <div className="mt-12">
-        <a id="portfolio" className="relative invisible scroll-mt-16"></a>
-        <div className="flex justify-center">
-            <h2 className="">portfolio</h2>
-        </div>
+        
+        
+        
         <div className="group/list px-3 py-5">
 		    <div className="container mx-auto sm:px-4">
+                <h3 className="sm:text-3xl text-2xl font-bold uppercase mx-auto py-5">Coding Projects</h3>
                 {portfolio.map(project => (
                     <PortfolioItem
                         key={project.idb}
@@ -23,7 +22,7 @@ function Portfolio() {
                 ))}
             </div>
         </div>
-        </div>
+        
     )
 }
 
